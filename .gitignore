@@ -8,3 +8,4 @@ build
 dist
 include
 share
+pyvenv.cfg
