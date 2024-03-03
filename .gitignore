@@ -2,4 +2,9 @@
 Data_.xlsx
 lib
 lib64
-
+bin
+brand_category_classification.egg-info
+build
+dist
+include
+share
