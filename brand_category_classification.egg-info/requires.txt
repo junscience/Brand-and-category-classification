@@ -1,0 +1,11 @@
+duckdb
+fastapi
+lancedb
+light-the-torch
+loguru
+numpy
+pandas
+pydantic
+sentence-transformers
+typing
+uvicorn

@@ -1,0 +1,7 @@
+main.py
+setup.py
+brand_category_classification.egg-info/PKG-INFO
+brand_category_classification.egg-info/SOURCES.txt
+brand_category_classification.egg-info/dependency_links.txt
+brand_category_classification.egg-info/requires.txt
+brand_category_classification.egg-info/top_level.txt
