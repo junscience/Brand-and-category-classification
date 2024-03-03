@@ -4,3 +4,15 @@ Define name of brand and category with local base and embeddings tools. The prog
 Use `docker build -t "Embeddings_project" .` to make a container
 
 Use `docker run -e LANCEDB_CONFIG_DIR=/tmp -p 8000:8000 Embeddings_project` to start an uvicorn server. 
+
+You can explore lancedb with commands in python:
+
+```
+import lancedb
+import pandas as pd
+
+uri = "data/sample-lancedb"
+db = lancedb.connect(uri)
+tbl = db.open_table("Embeddings_db")
+DB = tbl.to_pandas()
+```
