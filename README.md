@@ -5,7 +5,7 @@ Use `docker build -t "Embeddings_project" .` to make a container
 
 Use `docker run -e LANCEDB_CONFIG_DIR=/tmp -p 8000:8000 Embeddings_project` to start an uvicorn server. 
 
-You can explore lancedb with commands in python:
+You can explore lancedb file with commands in python:
 
 ```
 import lancedb
