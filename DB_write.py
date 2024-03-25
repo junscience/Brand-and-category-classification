@@ -6,7 +6,7 @@ import numpy as np
 
 
 def write_embeddings(descriptions: list, predict: list, predict_quality: list, dataframe: pd.DataFrame,
-                     embeddings: list) -> object:
+                     embeddings: list):
     try:
         con = duckdb.connect()
         con.query('CREATE TABLE DB_DUCK AS SELECT * FROM DB')
