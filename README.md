@@ -4,9 +4,9 @@ Define name of brand and category with local base and embeddings tools. The prog
 Use `git clone https://github.com/junscience/Embeddings` to copy project to your directory. 
 
 
-Use `docker build -t "Embeddings_project" .` to make a container
+Use `docker build -t "embeddings_project" .` to make a container
 
-Use `docker run -e LANCEDB_CONFIG_DIR=/tmp -p 8000:8000 Embeddings_project` to start an uvicorn server. 
+Use `docker run -e LANCEDB_CONFIG_DIR=/tmp -p 8000:8000 embeddings_project` to start an uvicorn server. 
 
 You can explore lancedb file with commands in python:
 

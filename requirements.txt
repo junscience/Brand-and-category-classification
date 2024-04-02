@@ -9,3 +9,4 @@ pydantic
 uvicorn
 light-the-torch
 typing
+python-dotenv
